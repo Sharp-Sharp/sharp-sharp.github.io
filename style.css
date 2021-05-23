@@ -1,0 +1,23 @@
+div{
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(hen.jpg);
+    font-size: 100px;
+}
+@media (min-width: 1024px) and (max-width: 1336px){
+    div{
+        background-image:url(chicken.jpg);
+    }
+    .dima{
+        font-size: 100px;
+    }
+}
+@media (min-width: 1336px){
+    div{
+        background-image: url(egg.png);
+    }
+    .kamil{
+        font-size: 100px;
+    }
+}
